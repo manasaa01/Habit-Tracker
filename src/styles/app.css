@@ -1,0 +1,133 @@
+/* ─── App Component Styles ─────────────────────────────────────────────── */
+/* These classes use CSS custom properties from themes.css for dynamic theming */
+
+.app-bg {
+  background: linear-gradient(to bottom right, var(--bg-gradient-from), var(--bg-gradient-to));
+}
+
+.card {
+  background-color: var(--card-bg);
+  box-shadow: 0 10px 15px -3px var(--shadow);
+}
+
+.btn-icon {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.themed-select {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  --tw-ring-color: var(--primary);
+}
+
+.palette-icon {
+  color: var(--text-secondary);
+}
+
+.text-accent {
+  color: var(--text-accent);
+}
+
+.text-themed {
+  color: var(--text-primary);
+}
+
+.text-secondary-themed {
+  color: var(--text-secondary);
+}
+
+.input-themed {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  --tw-ring-color: var(--primary);
+}
+
+.input-themed-light {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  --tw-ring-color: var(--primary);
+}
+
+.table-header-cell {
+  border: 1px solid var(--border);
+  background-color: var(--table-header);
+  color: var(--text-primary);
+}
+
+.table-header-today {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: white;
+  font-weight: 700;
+  border-radius: 4px 4px 0 0;
+}
+
+.table-header-normal {
+  border: 1px solid var(--border);
+  background-color: var(--table-header);
+  color: var(--text-primary);
+}
+
+.td-sticky {
+  border: 1px solid var(--border);
+  background-color: var(--card-bg);
+}
+
+.td-today {
+  border: 1px solid var(--primary);
+  background-color: color-mix(in srgb, var(--primary) 8%, transparent);
+}
+
+.td-normal {
+  border: 1px solid var(--border);
+}
+
+.checkbox-themed {
+  accent-color: var(--primary);
+}
+
+.streak-success {
+  color: var(--success);
+}
+
+.streak-warning {
+  color: var(--warning);
+}
+
+.streak-default {
+  color: var(--text-secondary);
+}
+
+.score-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.score-warning {
+  background-color: var(--warning);
+  color: white;
+}
+
+.score-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.chart-card {
+  background-color: var(--card-bg);
+  box-shadow: 0 10px 15px -3px var(--shadow);
+}
+
+.quote-gradient {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  box-shadow: 0 10px 15px -3px var(--shadow);
+}
+
+.quote-author {
+  color: white;
+}
